@@ -101,6 +101,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+## Settings for production (remove entry form)
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES': (
+#         'rest_framework.renderers.JSONRenderer',
+#     )
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
